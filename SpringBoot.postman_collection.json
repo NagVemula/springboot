@@ -1,0 +1,46 @@
+{
+	"id": "9a5553af-8283-b4e0-1e5d-b48de2fc86fe",
+	"name": "SpringBoot",
+	"description": "",
+	"order": [
+		"711eb575-4402-7071-1668-e28356efe3b8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1563715407648,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "711eb575-4402-7071-1668-e28356efe3b8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8088/licensure",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9a5553af-8283-b4e0-1e5d-b48de2fc86fe",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Licensure",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1563715409636,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"fullInsured\":\"Yes\",\r\n\"medicare\":\"N\",\r\n\"medicaid\":\"Y\",\r\n\"isHmo\":\"y\",\r\n\"isProviderPhysian\":\"n\",\r\n\"review\":\"Test\"\r\n}"
+		}
+	]
+}
